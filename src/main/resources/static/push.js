@@ -42,7 +42,7 @@ function initialiseState() {
 }
 
 function subscribe() {
-    const publicKey = base64UrlToUint8Array('BAPGG2IY3Vn48d_H8QNuVLRErkBI0L7oDOOCAMUBqYMTMTzukaIAuB5OOcmkdeRICcyQocEwD-oxVc81YXXZPRY');
+    const publicKey = base64UrlToUint8Array('BGHvcpGdlp2M8x2KMTt8qqvzAz_c2xGi38DJRFIUXdDQnT8vjuKpj1MkEi1sSFRhAgY1wJglWeTjKZd0PRC1dm8');
 
     navigator.serviceWorker.ready.then(function (serviceWorkerRegistration) {
         serviceWorkerRegistration.pushManager.subscribe({
